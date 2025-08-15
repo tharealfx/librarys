@@ -2993,7 +2993,7 @@ function Library:CreateWindow(...)
     local titleParts = {
         {text = " Dupez", color = Color3.fromRGB(5, 95, 210)},
         {text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
-		{text = ".gg/Neqa57vzHr", color = Color3.fromRGB(255, 255, 255)},
+		{text = ".gg/9WWRNBNCrP", color = Color3.fromRGB(255, 255, 255)},
 		{text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
 		{text = "Premium", color = Color3.fromRGB(5, 95, 210)},
         {text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
