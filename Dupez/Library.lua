@@ -32,7 +32,7 @@ local Library = {
     FontColor = Color3.fromRGB(255, 255, 255);
     MainColor = Color3.fromRGB(28, 28, 28);
     BackgroundColor = Color3.fromRGB(20, 20, 20);
-    AccentColor = Color3.fromRGB(255, 235, 230);
+    AccentColor = Color3.fromRGB(250, 218, 221);
     OutlineColor = Color3.fromRGB(50, 50, 50);
     RiskColor = Color3.fromRGB(255, 50, 50),
 
@@ -2991,11 +2991,11 @@ function Library:CreateWindow(...)
     local daySuffix = getDaySuffix(day)
 
     local titleParts = {
-        {text = " Dupez", color = Color3.fromRGB(255, 235, 230)},
+        {text = " Dupez", color = Color3.fromRGB(250, 218, 221)},
         {text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
 		{text = "discord.gg/VvcduEzhKd", color = Color3.fromRGB(255, 255, 255)},
 		{text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
-		{text = "Premium", color = Color3.fromRGB(255, 235, 230)},
+		{text = "Premium", color = Color3.fromRGB(250, 218, 221)},
         {text = "  |  ", color = Color3.fromRGB(255, 255, 255)},
 		{text = "South Bronx", color = Color3.fromRGB(255, 255, 255)},
     }
