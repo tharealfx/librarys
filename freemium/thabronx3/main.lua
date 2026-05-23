@@ -2198,7 +2198,7 @@ do
             Position = UDim2.new(0, 5, 0, 0);
             Size = UDim2.new(1, -5, 1, 0);
             TextSize = 14;
-            Text = '--  Select   --';
+            Text = '- Select';
             TextXAlignment = Enum.TextXAlignment.Left;
             TextWrapped = true;
             ZIndex = 7;
@@ -2294,7 +2294,7 @@ do
                 Str = Dropdown.Value or '';
             end;
 
-            ItemList.Text = (Str == '' and '--  Select   --' or Str);
+            ItemList.Text = (Str == '' and '- Select' or Str);
         end;
 
         function Dropdown:GetActiveValues()
